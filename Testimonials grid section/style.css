@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+body {
+  background-color: #edf2f8;
+}
+
+img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 17px;
+  color: hsl(0, 0%, 81%);
+  margin: 0;
+  margin-left: 15px;
+}
+
+h3 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 15px;
+  color: hsl(210, 46%, 95%);
+  margin: 0;
+  margin-left: 15px;
+}
+
+h4 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 12px;
+  color: hsl(0, 0%, 81%);
+  margin: 0;
+  margin-left: 15px;
+}
+
+.grid-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 5%;
+  /*
+  border: 2px solid rgb(166, 233, 253);
+  */
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "t1 t1  t2  t3"
+    "t4 t5  t5  t3 ";
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card-header-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  margin: 15px;
+}
+
+.header {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: hsl(210, 46%, 95%);
+  margin: 0;
+  margin-left: 15px;
+}
+
+.quote {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  color: hsl(0, 0%, 81%);
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.text-dark {
+  color: #48556a;
+}
+
+.title-dark {
+  color: #19212e;
+}
+
+.testimony1 {
+  grid-area: t1;
+  border-radius: 10px;
+  background-color: hsl(263, 55%, 52%);
+}
+
+.testimony2 {
+  grid-area: t2;
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.testimony3 {
+  grid-area: t3;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.testimony4 {
+  grid-area: t4;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.testimony5 {
+  grid-area: t5;
+  border-radius: 10px;
+  background-color: hsl(219, 29%, 14%);
+}
+@media only screen and (max-width: 1000px) {
+  .grid-container {
+    width: 98%;
+    margin: auto;
+    margin-top: 5%;
+    /*
+  border: 2px solid rgb(166, 233, 253);
+  */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "t1 t1  t2  t3"
+      "t4 t5  t5  t3 ";
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .grid-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "t1"
+      "t2"
+      "t4"
+      "t5"
+      "t3";
+  }
+}
