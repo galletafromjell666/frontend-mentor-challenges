@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main-header {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#brands div img {
+  width: 40%;
+  height: auto;
+}
+
+footer div div img {
+  width: 53%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {#main-header {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
