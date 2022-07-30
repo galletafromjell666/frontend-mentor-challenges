@@ -29,4 +29,3 @@ npm run build
 ### Mobile
 ![Clipboard Mobile](https://github.com/galletafromjell666/frontend-mentor-challenges/blob/a0c7c2725a21df79e80e9848b98be19228fbc566/clipbpoard-landing/mobile.png)
 
-***
