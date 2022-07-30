@@ -20,7 +20,7 @@ To build once run:
 npm run build
 ```
 
-## screenshots
+## Screenshots
 
 ### Desktop
 
