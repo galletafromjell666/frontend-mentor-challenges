@@ -1,5 +1,5 @@
 # Frontend Mentor - Testimonials grid section
-***
+
 ## Usage
 
 Open **index.html**
